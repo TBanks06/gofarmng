@@ -3,7 +3,9 @@ import "./SellersDashboard.css"
 import Productbox from "../../assets/product-box.png"
 import line1 from "../../assets/line1.png"
 import line2 from "../../assets/line2.png"
+import line3 from "../../assets/line3.png"
 import receipt from "../../assets/receipt-item.png"
+import direct from "../../assets/direct-send.png"
 
 
 const SellersDashboard = () => {
@@ -24,8 +26,8 @@ const SellersDashboard = () => {
                 </div>
                 <div className="sum1">
                     <img className='pro1' src={receipt} alt=""/>
-                    <p> Total Products
-                        <p className='bold'>3000</p>
+                    <p> Total Orders
+                        <p className='bold'>1150</p>
                     </p>
                     <div className="stock">
                     <img src={line2} alt=""/>
@@ -33,12 +35,12 @@ const SellersDashboard = () => {
                     </div>
                 </div>
                 <div className="sum1">
-                    <img className='pro' src={Productbox} alt=""/>
+                    <img className='pro2' src={direct} alt=""/>
                     <p> Total Products
                         <p className='bold'>3000</p>
                     </p>
                     <div className="stock">
-                    <img src={line1} alt=""/>
+                    <img src={line3} alt=""/>
                     <span className='increase'>+10%</span>
                     </div>
                 </div>
