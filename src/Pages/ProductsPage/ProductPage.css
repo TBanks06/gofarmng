@@ -88,6 +88,11 @@ img.bck{
 p.star{
     padding-left: 4em;
 }
+p.star1{
+    padding-left: 3em;
+    padding-bottom: 1.5em;
+    margin-top: 1em;
+}
 .first{
     display: flex;
     flex-direction: column;
@@ -95,8 +100,8 @@ p.star{
     height:60vh;
     align-items: flex-start;
     border-radius: 5px;
-    box-shadow: 2px 5px 1px #888888;
-    border: 1px solid #888888;
+    box-shadow: 2px 5px 1px rgb(233, 229, 229);
+    /* border: 1px solid #CBC8FF; */
     
 }
 

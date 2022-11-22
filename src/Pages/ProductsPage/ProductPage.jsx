@@ -74,7 +74,7 @@ const ProductPage = () => {
                 <p className="star"><Star/></p>
                 <p className="name">#1,000 <span>/Kg</span></p>
                 <p className="star"><Increment/></p>
-                <p className="star"><Button/></p>
+                <p className="star1"><Button/></p>
              </div>
              <div className="first">
                 <img className="bck" src={Orange} alt=""/>
@@ -82,7 +82,7 @@ const ProductPage = () => {
                 <p className="star"><Star/></p>
                 <p className="name">#1,000 <span>/Kg</span></p>
                 <p className="star"><Increment/></p>
-                <p className="star"><Button/></p>
+                <p className="star1"><Button/></p>
              </div>
              <div className="first">
                 <img className="bck" src={Apple} alt=""/>
@@ -90,7 +90,7 @@ const ProductPage = () => {
                 <p className="star"><Star/></p>
                 <p className="name">#1,000 <span>/Kg</span></p>
                 <p className="star"><Increment/></p>
-                <p className="star"><Button/></p>
+                <p className="star1"><Button/></p>
              </div>
              <div className="first">
                 <img className="bck" src={Golden} alt=""/>
@@ -98,7 +98,7 @@ const ProductPage = () => {
                 <p className="star"><Star/></p>
                 <p className="name">#1,000 <span>/Kg</span></p>
                 <p className="star"><Increment/></p>
-                <p className="star"><Button/></p>
+                <p className="star1"><Button/></p>
              </div>
           </div>  
           <div className="related-container">
@@ -108,7 +108,7 @@ const ProductPage = () => {
                 <p className="star"><Star/></p>
                 <p className="name">#1,000 <span>/Kg</span></p>
                 <p className="star"><Increment/></p>
-                <p className="star"><Button/></p>
+                <p className="star1"><Button/></p>
              </div>
              <div className="first">
                 <img className="bck" src={Carrot} alt=""/>
@@ -116,7 +116,7 @@ const ProductPage = () => {
                 <p className="star"><Star/></p>
                 <p className="name">#1,000 <span>/Kg</span></p>
                 <p className="star"><Increment/></p>
-                <p className="star"><Button/></p>
+                <p className="star1"><Button/></p>
              </div>
              <div className="first">
                 <img className="bck" src={Guava} alt=""/>
@@ -124,7 +124,7 @@ const ProductPage = () => {
                 <p className="star"><Star/></p>
                 <p className="name">#1,000 <span>/Kg</span></p>
                 <p className="star"><Increment/></p>
-                <p className="star"><Button/></p>
+                <p className="star1"><Button/></p>
              </div>
              <div className="first">
                 <img className="bck" src={Pawpaw} alt=""/>
@@ -132,7 +132,7 @@ const ProductPage = () => {
                 <p className="star"><Star/></p>
                 <p className="name">#1,000 <span>/Kg</span></p>
                 <p className="star"><Increment/></p>
-                <p className="star"><Button/></p>
+                <p className="star1"><Button/></p>
              </div>
       </div>
        </div>
