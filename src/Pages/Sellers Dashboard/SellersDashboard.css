@@ -190,10 +190,20 @@ p.trx{
     text-align: left;
     margin-top: 2em;
 }
-.chart{
-    /* display:flex; */
-    align-items: center;
-    justify-content: space-around;
+.resize{
+  width: 70%;
+  height: auto;
+  margin-left: 2em;
+  border: 1px solid #e9e5e5;
+  padding:2em;
+  border-radius: 5px;
+}
+.circular-chart{
+    margin-top: 2em;
+}
+.circular-chart p{
+    font-size: 30px;
+    font-weight: bolder;
 }
  .history-column{
     display: flex;
@@ -224,9 +234,7 @@ p.trx{
     padding: 10px;
     border-radius: 50%;
  }
- small.time{
-    color:#959595;
- }
+ 
  p.with{
     color:#F41515;
  }

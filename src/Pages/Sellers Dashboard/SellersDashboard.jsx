@@ -13,6 +13,7 @@ import arrowup from "../../assets/arrow-up.png"
 import cart from "../../assets/cart.png"
 import Circular from "../../Components/Circular"
 import Chart from "../../Components/Chart"
+// import Table from  "../../Components/TableComponent"
 
 
 const SellersDashboard = () => {
@@ -66,7 +67,10 @@ const SellersDashboard = () => {
             
             <div className="chart">
                 <div className="line-chart"><Chart/></div>
-                 <div className="circular-chart"><Circular/></div>
+                 <div className="circular-chart">
+                    <p>Order Status</p>
+                    <div className="resize"><Circular/></div>
+                    </div>
             </div>
             <div className="recently">
                 <p className='recent'>Recent Orders</p>
@@ -110,6 +114,7 @@ const SellersDashboard = () => {
                 <div className="view">
                     <a href="">View All </a>
                 </div>
+                {/* <Table/> */}
             </div>
         </div>
         

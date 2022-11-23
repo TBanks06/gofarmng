@@ -28,7 +28,7 @@ const Header = () => {
            
         </div>
         <div className="icons">
-            <img src={bell} alt=""/>
+            <img src={bell} alt="" width=""/>
             <img src={cart} alt=""/>
             <p>User Icon</p>
             <p>Account Balance</p>
