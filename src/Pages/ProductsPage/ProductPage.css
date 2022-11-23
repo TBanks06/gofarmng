@@ -43,7 +43,11 @@ p.text, p.seller{
     text-align:justify;
    margin-top: 10px;
    font-size: 18px;
+   
     
+}
+p.seller{
+    font-weight: bolder;
 }
 .related h3{
     font-size: 30px;
@@ -57,10 +61,15 @@ p.text, p.seller{
     align-items: flex-start;
     justify-content: space-around;
     width: 500px;
+    margin-top: 10px;
+    /* margin-right: 6em; */
     /* max-width:max-content; */
 }
 .quality p{
     font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+   
 }
 .related-container{
     display: flex;
@@ -97,7 +106,7 @@ p.star1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height:60vh;
+    height:65vh;
     align-items: flex-start;
     border-radius: 5px;
     box-shadow: 2px 5px 1px rgb(233, 229, 229);
@@ -119,6 +128,7 @@ p.star1{
         text-align: center;
         padding: 1em;
         width:70%;
+        
     }
     .right-text{
         align-items: center;

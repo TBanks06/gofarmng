@@ -1,9 +1,10 @@
 .Seller-dashboard{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-family: 'Nunito', sans-serif;
     padding: 2em;
+    
 }
 .chat h4{
     font-family: 'Nunito', sans-serif;
@@ -12,23 +13,28 @@
     text-align: left;
     margin-bottom: 20px;
 }
+.chat{
+    margin-left: 2em;
+    margin-right:2em;
+}
 .overview-summary{
     display:flex;
-    justify-content: space-evenly;
     align-items: center;
-    width: 950px;
+    width: 800px;
+    gap:20px;
 }
 .sum1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 230px;
+    width: 190px;
     border: 1px solid #e9e5e5;
     border-radius: 5px;
     padding: 2px;
 }
 p.total{
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: bold;
 }
 img.pro{
     background: #CBC8FF;
@@ -51,7 +57,7 @@ img.pro3{
     border-radius: 50%;
 }
 p.bold{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bolder;
 }
 .stock{
@@ -71,9 +77,11 @@ p.recent{
     font-weight: bolder;
     text-align: left;
     margin-bottom: 10px;
+    margin-left:10px;
 }
 table{
-    width: 100%;
+    width: 95%;
+    margin-left: 1em;
     
 }
 button.cancel{
@@ -119,6 +127,7 @@ tr td{
     border: 1px solid #e9e5e5;
     border-radius: 10px;
     margin-top: 1em;
+    width: 86%;
 }
 .view{
     display: flex;
@@ -134,10 +143,12 @@ tr td{
     padding: 1em;
     color: #fff;
     border-radius: 5px;
-    width: 140%;
+    box-shadow: #e9e5e5;
 }
 .trx-history{
- margin-right: 3em;
+margin-right:5em;
+border:1px solid #e9e5e5;
+padding: 2em;
 }
 p.amount{
     font-size: 30px;
@@ -149,7 +160,7 @@ p.amount{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 1em;
-    width: 120%;
+    /* width: 120%; */
     margin-left: 1.5em;
 }
 .depo,.withdraw{
@@ -179,11 +190,17 @@ p.trx{
     text-align: left;
     margin-top: 2em;
 }
+.chart{
+    /* display:flex; */
+    align-items: center;
+    justify-content: space-around;
+}
  .history-column{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly ;
+    padding: 0;
  }
  .withdrawn{
     display: flex;
@@ -193,10 +210,41 @@ p.trx{
     border-radius: 5px;
     font-weight: bold;
     margin-top:1em;
-    width: 280px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
  }
  .withdrawn img{
-    background-color:#FFBDBD ;
+    background-color:#F41515 ;
     padding: 10px;
     border-radius: 50%;
+ }
+ img.arrowdown{
+    background-color:#149C08 ;
+    padding: 10px;
+    border-radius: 50%;
+ }
+ small.time{
+    color:#959595;
+ }
+ p.with{
+    color:#F41515;
+ }
+ p.dep{
+    color:#149C08;
+ }
+ .histrory-column small.date{
+    text-align: left;
+    font-weight: bold;
+ }
+ button.vie{
+    background:#149C08;
+    width:200px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    color:#fff;
+    margin-top: 1em;
  }

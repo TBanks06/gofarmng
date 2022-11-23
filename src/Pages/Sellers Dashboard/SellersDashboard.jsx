@@ -10,6 +10,9 @@ import direct from "../../assets/direct-send.png"
 import dolla from "../../assets/dollar-circle.png"
 import arrowdown from "../../assets/arrow-down.png"
 import arrowup from "../../assets/arrow-up.png"
+import cart from "../../assets/cart.png"
+import Circular from "../../Components/Circular"
+import Chart from "../../Components/Chart"
 
 
 const SellersDashboard = () => {
@@ -59,6 +62,11 @@ const SellersDashboard = () => {
                     </div>
                 </div>
                 
+            </div>
+            
+            <div className="chart">
+                <div className="line-chart"><Chart/></div>
+                 <div className="circular-chart"><Circular/></div>
             </div>
             <div className="recently">
                 <p className='recent'>Recent Orders</p>
@@ -121,7 +129,7 @@ const SellersDashboard = () => {
                 </div>
             </div>
             <div className="history">
-                <p className='trx'>Recent Transactions <br></br>
+                <p className='trx'>Friday <br></br>
                 <small className='date'>4th November, 2022</small>
                 </p>
             </div>
@@ -129,13 +137,69 @@ const SellersDashboard = () => {
                 <div className="withdrawn">
                 <img src={arrowup} alt=""/>
                 <p>Funds Withdrawn <br></br>
-                    <small>10:32am</small>
+                    <small classsName="time">10:32am</small>
                 </p>
-                <p>#20,000</p>
+                <p className="with">#20,000</p>
                 </div>
-
+                <div className="withdrawn">
+                <img className="arrowdown"src={arrowdown} alt=""/>
+                <p>Funds Deposit <br></br>
+                    <small classsName="time">9:32am</small>
+                </p>
+                <p className="dep">#30,000</p>
+                </div>
+                <div className="withdrawn">
+                <img className="arrowdown"src={arrowdown} alt=""/>
+                <p>Funds Deposit <br></br>
+                    <small classsName="time">8:00am</small>
+                </p>
+                <p className="dep">#50,000</p>
+                </div>
             </div>
+            <p className='trx'>Wednesday<br></br>
+                <small className='date'>2nd November, 2022</small>
+            </p>
+            <div className="withdrawn">
+                <img src={cart} alt=""/>
+                <p>Cart Purchased <br></br>
+                    <small classsName="time">6:43pm</small>
+                </p>
+                <p className="with">#14,000</p>
+            </div>
+            <div className="withdrawn">
+                <img src={cart} alt=""/>
+                <p>Cart Purchased <br></br>
+                    <small classsName="time">2:00pm</small>
+                </p>
+                <p className="with">#67,000</p>
+            </div>
+            <div className="withdrawn">
+                <img className="arrowdown"src={arrowdown} alt=""/>
+                <p>Funds Deposit <br></br>
+                    <small classsName="time">8:00am</small>
+                </p>
+                <p className="dep">#50,000</p>
+            </div>
+            <div className="withdrawn">
+                <img className="arrowdown"src={arrowdown} alt=""/>
+                <p>Funds Deposit <br></br>
+                    <small classsName="time">3:00pm</small>
+                </p>
+                <p className="dep">#75,000</p>
+            </div>
+            <p className='trx'>Tuesday<br></br>
+                <small className='date'>1st November, 2022</small>
+            </p>
+            <div className="withdrawn">
+                <img src={cart} alt=""/>
+                <p>Cart Purchased <br></br>
+                    <small classsName="time">2:00pm</small>
+                </p>
+                <p className="with">#31,200</p>
+            </div>
+            <button className='vie'>View All</button>
         </div>
+        
       
     </div>
   )
