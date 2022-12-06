@@ -1,13 +1,24 @@
+import React from "react";
+// import Carousel from "./Carousel/Carousel";
+// import Section1 from "./section1/Section1";
+// import ExploreCategories from "./ExploreCategories/ExploreCategories";
+// import TopSellingProduct from "./TopSellingProduct/TopSellingProduct";
+// import NewestArrival from "./NewestArrival/NewestArrival";
+// import SubscribeNewsLetter from "./SubscribeNewsLetter/SubscribeNewsLetter";
+// import Footer from "./Footer/Footer";
+import Account from "./Account/Account";
 
-import './App.css';
-import ShippingComponent from './Components/ShippingComponent/ShippingComponent';
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <ShippingComponent />
+    <div>
+      {/* <Carousel />
+      <Section1 />
+      <ExploreCategories />
+      <TopSellingProduct />
+      <NewestArrival />
+      <SubscribeNewsLetter />
+      <Footer /> */}
+      <Account />
     </div>
   );
 }
-
-export default App;
