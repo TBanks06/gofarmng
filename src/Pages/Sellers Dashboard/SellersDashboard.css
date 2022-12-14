@@ -295,6 +295,8 @@ p.trx{
     }
     .chat h4{
         text-align: center;
+        /* text-decoration: none;
         text-decoration: none;
-    }
+        text-align: none;
+    } */
 }
