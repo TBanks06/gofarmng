@@ -20,8 +20,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Routes>
-          <Route path="/" element={<Login />} />
+         <Routes>
+         <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
           <Route path="SignUp" element={<SignUp />} />
           <Route path="Forgot" element={<Forgot />} />
           <Route path="Resetpassword" element={<Resetpassword />} />
@@ -40,7 +41,7 @@ function App() {
             <Route path="productupload" element={<ProductUpload />} />
             <Route path="productpage" element={<ProductPage />} />
           </Routes>
-        </Routes> */}
+        </Routes> 
       </BrowserRouter>
     </>
   );
