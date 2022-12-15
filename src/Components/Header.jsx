@@ -2,9 +2,15 @@ import React from 'react'
 import "./Header.css"
 import bell from "../assets/Bell.png"
 import cart from "../assets/cart.png"
+import { useNavigate } from 'react-router-dom'
 // import Hamburger from "./HamburgerComponent"
 
 const Header = () => {
+  const navigate = useNavigate()
+  const gotoSignUpPage = e => {
+    e.preventDefault();
+    navigate("/SignUp")
+  }
   return (
     <div className='header-content'>
         <h3>GoFarmNG</h3>
@@ -30,6 +36,7 @@ const Header = () => {
         <div className="icons">
             <img src={bell} alt="" width=""/>
             <img src={cart} alt=""/>
+            <button class type="submit" onClick={gotoSignUpPage}>Join</button>
             <p>User Icon</p>
             <p>Account Balance</p>
            {/* <div className="hamburger"><Hamburger/></div> */}
