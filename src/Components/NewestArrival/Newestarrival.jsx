@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import coconnut from "../images/coconnut.svg";
 import watermelon from "../images/watermelon.svg";
 import pineapple from "../images/pineapple.svg";
@@ -6,8 +6,22 @@ import whiteLove from "../images/whiteLove.svg";
 import pawpaw from "../images/pawpaw.svg";
 import stars from "../images/stars.svg";
 import "./NewestArrival.css";
+import axios from "axios";
+import { useMutation, useQuery } from "@tanstack/react-query";
 
 function NewestArrival() {
+  // PUT UR URL INTO THIS FUNCTION
+  const getData = async () => {
+    const res = await axios.get("https://gofarm-ng.vercel.app/api/v1/findall");
+    return res;
+  };
+
+  //USEQUERY TO GET DATA FROM BACKEND
+  const { data, isError, isLoading, error } = useQuery({
+    queryKey: ["todos"],
+    queryFn: getData,
+  });
+
   return (
     <>
       <h3 className="newest-header">Newest Arrival</h3>

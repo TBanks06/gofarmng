@@ -6,11 +6,11 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.newest-fruits {
+/* .newest-fruits {
   display: flex;
   justify-content: space-around;
   margin-top: 3rem;
-}
+} */
 .newest-fruit {
   width: 282px;
   height: 500px;

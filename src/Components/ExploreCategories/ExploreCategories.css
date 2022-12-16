@@ -9,14 +9,16 @@
 .explore-btn {
   display: flex;
   justify-content: space-around;
+  /* gap: 2rem; */
 }
 .explore-btn1 {
   display: flex;
   justify-content: space-around;
-  margin-right: 337px;
+  margin-right: 350px;
+  /* gap: 2rem; */
 }
 
-.btn {
+.ebtn {
   width: 280px;
   height: 57px;
   padding: 12px, 50px, 10px, 50px;
@@ -25,4 +27,11 @@
   cursor: pointer;
   color: #353535;
   margin: 8px;
+  transition-duration: 0.8s;
+}
+
+.ebtn:hover,
+active {
+  background-color: #ff7d09; /* Orange */
+  color: white;
 }

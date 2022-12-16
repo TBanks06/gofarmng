@@ -13,33 +13,48 @@ import Carousel from "./Components/Carouseldiv";
 import SideBar from "./Components/ShippingComponent/SideBar/SideBar";
 import Carouseldiv from "./Components/Carouseldiv";
 import ProductUpload from "./Components/ProductUpload";
-import ProductPage from "./Pages/ProductsPage/ProductPage";
+import ProductPage from "./Pages/ProductPage/ProductPage";
+import Account from "./Components/Accounts/Account";
+import ExploreCategories from "./Components/explorecategories/ExploreCategories";
+import Footer from "./Components/Footer/Footer";
+import NewestArrival from "./Components/NewestArrival/Newestarrival";
+import SubscribeNewsLetter from "./Components/SubscribeNewsLetter/SubscribeNewsLetter";
+import TopSellingProduct from "./Components/TopSelingProduct/TopSellingProduct";
+import Section from "./Components/Section/Section";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Routes>
-          <Route path="/" element={<Login />} />
+        {/* <Route path="/" element={<Login />} />
           <Route path="SignUp" element={<SignUp />} />
           <Route path="Forgot" element={<Forgot />} />
           <Route path="Resetpassword" element={<Resetpassword />} />
           <Route path="Order" element={<Order />} />
-          <Route path="Shippingdets" element={<Shippingdets />} />
+          <Route path="Shippingdets" element={<Shippingdets />} /> */}
 
-          <Routes>
-            <Route path="/" element={<Login />} />
-            <Route path="SignUp" element={<SignUp />} />
-            <Route path="Forgot" element={<Forgot />} />
-            <Route path="Resetpassword" element={<Resetpassword />} />
-            <Route path="Order" element={<Order />} />
-            <Route path="productview" element={<ProductView />} />
-            <Route path="carousel" element={<Carouseldiv />} />
-            <Route path="sidebar" element={<SideBar />} />
-            <Route path="productupload" element={<ProductUpload />} />
-            <Route path="productpage" element={<ProductPage />} />
-          </Routes>
-        </Routes> */}
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/Forgot" element={<Forgot />} />
+          <Route path="/Resetpassword" element={<Resetpassword />} />
+          <Route path="/Order" element={<Order />} />
+          <Route path="/productview" element={<ProductView />} />
+          <Route path="/carousel" element={<Carouseldiv />} />
+          <Route path="/sidebar" element={<SideBar />} />
+          <Route path="/productupload" element={<ProductUpload />} />
+          <Route path="/productpage" element={<ProductPage />} />
+          <Route path="/Section" element={<Section />} />
+          <Route path="/ExploreCategories" element={<ExploreCategories />} />
+          <Route path="/footer" element={<Footer />} />
+          <Route path="/TopSellingProduct" element={<TopSellingProduct />} />
+          <Route path="/NewestArrival" element={<NewestArrival />} />
+          <Route path="/Account" element={<Account />} />
+          <Route
+            path="/SubscribeNewsLetter"
+            element={<SubscribeNewsLetter />}
+          />
+        </Routes>
       </BrowserRouter>
     </>
   );
