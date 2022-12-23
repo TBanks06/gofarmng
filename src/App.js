@@ -22,6 +22,7 @@ import NewestArrival from "./Components/NewestArrival/NewsetArrival";
 import Section from "./Components/Section/Section";
 import SubscribeNewsLetter from "./Components/SubscribeNewsLetter/SubscribeNewsLetter";
 import TopSellingProduct from "./Components/TopSellingProduct/TopSellingProduct";
+import Fruit from "./Components/Fruit/Fruit";
 // import Home from './Pages/Homepage'
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <NewestArrival />
       <SubscribeNewsLetter />
       <Footer />
+      <Fruit />
       {/* <Header />
       <ProductPage />
       <SellersDashboard /> */}
