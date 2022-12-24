@@ -14,13 +14,31 @@ import SideBar from "./Components/ShippingComponent/SideBar/SideBar";
 import Carouseldiv from "./Components/Carouseldiv";
 import ProductUpload from "./Components/ProductUpload";
 import ProductPage from "./Pages/ProductsPage/ProductPage";
-import Home from './Pages/Homepage'
+import SellersDashboard from "./Pages/Sellers Dashboard/SellersDashboard";
+import Header from "./Components/Header";
+import ExploreCategories from "./Components/ExploreCategories/ExploreCategories";
+import Footer from "./Components/Footer/Footer";
+import NewestArrival from "./Components/NewestArrival/NewsetArrival";
+import Section from "./Components/Section/Section";
+import SubscribeNewsLetter from "./Components/SubscribeNewsLetter/SubscribeNewsLetter";
+import TopSellingProduct from "./Components/TopSellingProduct/TopSellingProduct";
+// import Home from './Pages/Homepage'
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        {/* <Routes>
+      <Carouseldiv />
+      <Section />
+      <ExploreCategories />
+      <TopSellingProduct />
+      <NewestArrival />
+      <SubscribeNewsLetter />
+      <Footer />
+      {/* <Header />
+      <ProductPage />
+      <SellersDashboard /> */}
+      {/* <BrowserRouter>
+        <Routes>
           <Route path="/" element={<Login />} />
           <Route path="SignUp" element={<SignUp />} />
           <Route path="Forgot" element={<Forgot />} />
@@ -40,8 +58,8 @@ function App() {
             <Route path="productupload" element={<ProductUpload />} />
             <Route path="productpage" element={<ProductPage />} />
           </Routes>
-        </Routes> */}
-      </BrowserRouter>
+        </Routes>
+      </BrowserRouter> */}
     </>
   );
 }
